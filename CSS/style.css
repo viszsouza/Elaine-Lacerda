@@ -232,6 +232,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 50px;
 }
 
@@ -686,4 +687,9 @@ p.textos-resposta {
     section div.caixa-perguntas{
         margin: 0;
     }
+}
+
+/* Medias Query's */
+@media screen and (max-width: 620px) {
+    
 }

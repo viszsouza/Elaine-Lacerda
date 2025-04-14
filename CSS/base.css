@@ -292,7 +292,12 @@ footer{
 /* Primeira parte */
 .footer-sec{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.map{
+    max-width: 400px;
 }
 
 .footer-content{
@@ -371,5 +376,13 @@ footer{
 
     .footer-content{
     width: auto;
+    }
+
+    .map{
+        max-width: 100%;
+    }
+
+    .map iframe{
+        width: 100%;
     }
 }
