@@ -8,6 +8,7 @@
 
     <!-- LINK'S -->
     <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/script.js" defer></script>
 </head>
 <body>
     
@@ -65,6 +66,258 @@
     </section>
 
     <!-- Destaques -->
+    <section class="destaques">
+        <div class="destaques-text">
+            <h1>Meus Destaques</h1>
+        </div>
 
+        <div class="container-destaques">
+
+            <div class="destaques-item">
+                <div class="destaques-img">
+                    <img src="IMG/psicoterapia.png" alt="Imagem sobre psicoterapia">
+                </div>
+
+                <div class="destaques-text-container">
+                    <h3>Psicoterapia</h3>
+                    <p>A psicoterapia é um mergulho no processo de descoberta da sua essência e transformação, no qual você aprende a compreender seus pensamentos, emoções e comportamentos. Por meio desse acompanhamento, é possível desenvolver estratégias para lidar com desafios emocionais, melhorar a qualidade de vida e fortalecer a saúde mental.</p>
+                </div>
+
+                <div class="destaques-button">
+                    <a href=""><button>Entrar em Contato</button></a>
+                </div>
+            </div>
+
+            <div class="destaques-item">
+                <div class="destaques-img">
+                    <img src="IMG/avaliacao.png" alt="Imagem sobre Avaliação Neuropsicológica">
+                </div>
+
+                <div class="destaques-text-container">
+                    <h3>Avaliação Neuropsicológica</h3>
+                    <p>A avaliação neuropsicológica é um processo que investiga o funcionamento cognitivo, emocional e comportamental de uma pessoa. Através de testes específicos, entrevistas e observações clínicas, essa avaliação permite identificar dificuldades em áreas como memória, atenção, linguagem e funções executivas.</p>
+                </div>
+
+                <div class="destaques-button">
+                    <a href=""><button>Entrar em Contato</button></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Como te ajudo? -->
+    <section class="comoajudo">
+        <div class="comoajudo-tittle">
+            <h1>Como te ajudo?</h1>
+        </div>
+
+        <div class="container-comoajudo">
+            
+            <div class="container-comoajudo-item">
+                <div class="comoajudo-img">
+                    <img src="IMG/presencial.png" alt="">
+                </div>
+
+                <div class="comoajudo-text">
+                    <h1>Terapia Presencial</h1>
+                    <p>A terapia presencial proporciona um ambiente seguro e acolhedor. No consultório, você tem a oportunidade de se expressar com mais proximidade e conexão. As sessões são conduzidas de forma estruturada, com duração de 50min.</p>
+                </div>
+            </div>
+
+            <div class="container-comoajudo-item">
+
+                <div class="comoajudo-text">
+                    <h1>Terapia Online</h1>
+                    <p>A terapia online é uma forma prática e acessível de cuidar da saúde mental, oferecendo o mesmo acolhimento e eficácia da terapia presencial. As sessões acontecem por videochamadas permitindo o acompanhamento psicológico no conforto e segurança de onde estiver.</p>
+                </div>
+
+                <div class="comoajudo-img">
+                    <img src="IMG/online.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="container-comoajudo-item">
+                <div class="comoajudo-img">
+                    <img src="IMG/casal.png" alt="">
+                </div>
+
+                <div class="comoajudo-text">
+                    <h1>Terapia de Casal</h1>
+                    <p>A maior dificuldade que os casais têm hoje em dia é estabelecer um diálogo aberto e saudável. Durante a terapia, o casal descobre junto a oportunidade de rever seus valores por meio da conversa franca em um cenário propício para a escuta e a mudança de comportamento.</p>
+                </div>
+            </div>
+
+        </div>
+        
+    </section>
+
+    <!-- Contato -->
+    <!-- Fale Conosco! -->
+    <section class="contato" id="contato">
+        <div class="contato-text">
+            <h1>Entre em Contato</h1>
+            <p><span>Preencha</span> o <span>formulário</span> e descubra como a posso  te ajudar! <br><br>
+
+            <span>Solicite</span> sua sessão agora mesmo!</p>
+        </div>
+
+        <div class="formulario">
+            <form id="formulario">
+                <div class="formulario-input">
+                    <label for="nome">Seu nome completo</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome aqui" required>
+                </div>
+        
+                <div class="formulario-input">
+                    <label for="email">Seu email</label>
+                    <input type="text" id="email" placeholder="Digite seu email aqui" required>
+                </div>
+        
+                <div class="formulario-input">
+                    <label for="telefone">Seu telefone</label>
+                    <input type="text" id="telefone" placeholder="Digite seu telefone aqui" required>
+                </div>
+        
+                <div class="formulario-input">
+                    <label for="empresa">Tipo de Psicológia</label>
+                    <input type="text" id="tipo" placeholder="Presencial, Online ou Terapia de Casal" required>
+                </div>
+        
+                <div class="formulario-input">
+                    <label for="cidade">O que te trouxe aqui</label>
+                    <input type="text" id="cidade" placeholder="Digite uma mensagem sobre o que te trouxe aqui" required>
+                </div>
+        
+                <!-- Mensagem aparece se todos os campos não forem preenchidos -->
+                <p id="form-mensagemErro">Preencha todos os campos!</p>
+        
+                <!-- Botão para enviar o form -->
+                <div class="form-button">
+                    <button type="button" onclick="enviarParaWhatsApp()">Enviar</button>
+                </div>
+            </form>
+        </div>
+        
+    </section>
+
+    <!-- Começo Depoimentos -->
+    <section id="depoimentos-secao" class="flex-container secao"> <!-- Sessão de depoimentos -->
+
+        <div class="title-dep ">
+            <h1>Depoimentos</h1>
+            <p>Venha descobrir o que meus clientes falam sobre mim</p>
+        </div>
+
+        <!-- Botões do carousel -->
+        <button id="anterior" class="carousel-button flex-container" type="button">&lt;</button>
+        <button id="proximo" class="carousel-button flex-container" type="button">&gt;</button>
+        <!-- Lista de depoimentos -->
+        <div id="depoimentos" class="">
+            <!-- Item da lista de depoimentos -->
+            <div class="depoimento">
+                <!-- Perfil da pessoa que fez o depoimento -->
+                <div class="perfil-depoimento">
+                    <p class="nome-depoimento"> D. S.</p>
+                    <p class="instagram-depoimento">Psicoterapia
+                    </p>
+                </div>
+                <!-- O depoimento -->
+                <p class="comentario-depoimento">Iniciei a psicoterapia bem insegura. Hoje, consigo perceber pontos de melhoria e me arrisco em desenvolvê-los, pois me sinto confiante  no processo. Tudo melhorou, apesar da terapia ser algo difícil e doloroso, você sabe conduzir com leveza e sensibilidade
+            </p>
+            </div>
+            <div class="depoimento">
+                <div class="perfil-depoimento">
+                    <p class="nome-depoimento">M. H.</p>
+                    <p class="instagram-depoimento">Avaliação Neuropsicológica</p>
+                </div>
+                <p class="comentario-depoimento">A avaliação neuropsicológica me ajudou muito e complementou meu processo terapêutico. Hoje me sinto mais confortável na presença dos meus colegas de trabalho, mais flexível e tenho sentido menos culpa.</p>
+            </div>
+            <div class="depoimento">
+                <div class="perfil-depoimento">
+                    <p class="nome-depoimento">V. C.</p>
+                    <p class="instagram-depoimento">Psicoterapia</p>
+                </div>
+                <p class="comentario-depoimento">Em 2021, procurei atendimento psicológico e escolhi a Elaine para ser minha psicóloga. Um dos pontos importantes na terapia é ter confiança, sentir-se à vontade e, com certeza, ela transmite isso.
+
+            </div>
+
+            <div class="depoimento">
+                <div class="perfil-depoimento">
+                    <p class="nome-depoimento">---</p>
+                    <p class="instagram-depoimento">---</p>
+                </div>
+                <p class="comentario-depoimento">---</p>
+            </div>
+            <!--
+
+            <div class="depoimento">
+                <div class="perfil-depoimento">
+                    <img class="imagem-depoimento" src="images/Logo Eduardo.png" alt="Foto de perfil de Eduardo">
+                    <p class="nome-depoimento">---</p>
+                    <p class="instagram-depoimento">@---</p>
+                </div>
+                <p class="comentario-depoimento">---
+                    </p>
+            </div>
+            <div class="depoimento">
+                <div class="perfil-depoimento">
+                    <img class="imagem-depoimento" src="img/tochic.png" alt="">
+                    <p class="nome-depoimento">---</p>
+                    <p class="instagram-depoimento">@---</p>
+                </div>
+                <p class="comentario-depoimento">---<br><br>
+                    
+                    <br><br>
+                    </p>
+            </div> -->
+        </div>
+    </section>
+    <!-- Fim Depoimentos -->
+
+    <!-- Section da parte DÚVIDA FREQUENTES -->
+    <!-- CSS: LINHA 187 ATÉ LINHA 277 - O mesmo que a seção de "Como te ajudo" porque compartilhamos algumas classes -->
+    <section id="fundo-azul-escuro">
+        <!-- Título da section -->
+        <h1>Dúvidas Frequentes</h1>
+
+        <!-- Essa div é a caixa que vai englobar a parte das perguntas e respostas para centralizar na section -->
+        <div class="caixa-perguntas">
+
+            <!-- Com o details, ao clicar na pergunta irá aparecer a respostas logo a baixo e caso queria esconder a resposta é só clicar na pergunta novamente -->
+            <details>
+
+                <!-- O summary é o "título" do details, ele sempre ficará visível -->
+                <summary> Aceita plano de saúde? </summary>
+
+                <!-- O que fica abaixo do  summary é o que fica oculto e só aparece quando o summary é clicado, nesse caso a resposta da pergunta -->
+                <p class="textos-resposta">Utilizo uma variedade de tecnologias para garantir que cada projeto atenda às necessidades específicas dos clientes. No front-end, trabalho com HTML, CSS e JavaScript. No back-end, utilizo Node.js, Python e PHP. Além disso, sou proficiente em bancos de dados como MySQL, garantindo uma solução completa e robusta.
+                </p>
+            </details>
+            <details>
+                <summary> Qual o horário de funcionamento? </summary>
+                <p class="textos-resposta">O prazo para a conclusão de um projeto pode variar dependendo da complexidade e dos requisitos específicos. Para sites simples, o prazo costuma ser de 2 a 4 semanas. Projetos mais complexos, como aplicações web com funcionalidades avançadas, podem levar de 8 a 12 semanas ou mais. Sempre forneço uma estimativa de tempo detalhada após discutir o escopo do projeto com o cliente.</p>
+            </details>
+            <details>
+                <summary> Eu posso fazer terapia? </summary>
+                <p class="textos-resposta">Sim, ofereço suporte contínuo após a entrega do projeto. Isso inclui correções de bugs, atualizações de segurança e pequenas modificações conforme necessário. Também ofereço planos de manutenção para garantir que seu site ou aplicação continue funcionando de maneira otimizada e segura.</p>
+            </details>
+            <details>
+                <summary> Onde fica o consultório? </summary>
+                <p class="textos-resposta">O processo de desenvolvimento é dividido em várias etapas para garantir que todas as necessidades e expectativas sejam atendidas: <br><br>
+
+                    1° Consulta Inicial: Discutimos seus objetivos, requisitos e ideias. <br>
+                    2° Planejamento: Crio um plano detalhado e um cronograma para o projeto. <br>
+                    3° Design: Desenvolvo wireframes e protótipos para aprovação. <br>
+                    4° Desenvolvimento: Construição do site ou aplicação, com revisões regulares. <br>
+                    5° Teste: Realizo testes extensivos para garantir a funcionalidade e a usabilidade. <br>
+                    6° Lançamento: Lanço o projeto e faço os ajustes finais. <br>
+                    7° Suporte: Ofereço suporte contínuo para manutenção e melhorias. <br><br>
+                    
+                    Estou comprometido em garantir que o processo seja transparente e colaborativo, resultando em um produto final que atende às suas expectativas.</p>
+            </details>
+        </div>
+    </section>
 </body>
 </html>

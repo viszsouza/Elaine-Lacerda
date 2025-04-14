@@ -115,3 +115,574 @@ header{
     font-size: 20px;
     color: var(--branco);
 }
+
+/* Destaques */
+.destaques{
+    padding: 40px 60px;
+    background-color: var(--branco);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.destaques-text h1{
+    font-family: "Playfair Display", serif;
+    font-weight: 100;
+    font-size: 34px;
+    color: var(--marrom);
+    text-align: center;
+}
+
+.container-destaques{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.destaques-item{
+    background-color: var(--verde);
+    padding: 20px;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
+
+.destaques-img img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.destaques-text-container{
+    color: var(--branco);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.destaques-text-container h3{
+    font-family: "Playfair Display", serif;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.destaques-text-container p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.destaques-button button{
+    background-color: var(--marrom);
+    color: var(--branco);
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+
+    transition: 300ms;
+}
+
+.destaques-button button:hover{
+    transform: scale(1.03);
+}
+
+/* Como te ajudo? */
+.comoajudo{
+    padding: 40px 60px;
+    background-color: var(--verde);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.comoajudo-tittle h1{
+    font-family: "Playfair Display", serif;
+    font-weight: 100;
+    font-size: 34px;
+    color: var(--branco);
+    text-align: center;
+}
+
+.container-comoajudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.container-comoajudo-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.comoajudo-img img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.comoajudo-text{
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+}
+
+.comoajudo-text h1{
+    font-family: "Playfair Display", serif;
+    font-weight: 100;
+    font-size: 34px;
+    color: var(--branco);
+}
+
+.comoajudo-text p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+/* Contato */
+.contato{
+    padding: 60px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    scroll-margin-top: 80px; /* Faz com que o form não fique grudado com a parte de cima do site ao clicar no link interno que fica na nav (btn Solicitar Orçamento) */
+}
+
+
+
+.contato-text{
+    width: 300px;
+}
+
+.contato-text h1{
+    color: var(--verde);
+    font-size: 36px;
+
+    font-family: "Playfair Display", serif;
+    font-weight: 300;
+    font-size: 34px;
+}
+
+.contato-text p{
+    font-size: 24px;
+    color: var(--verde);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.contato-text span{
+    font-weight: bold;
+}
+
+.formulario{
+    background-color: var(--verde);
+    box-shadow: var(--shadow);
+}
+
+.formulario form{
+    display:  flex;
+    flex-direction: column;
+    color: var(--branco);
+    padding: 30px;
+    gap: 20px;
+    width: 500px;
+}
+
+.formulario-input input{
+    background-color: var(--branco);
+    padding: 15px;
+    border: none;
+}
+
+.formulario-input{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Mensagem aparece se todos os campos não forem preenchidos */
+#form-mensagemErro{
+    display: none;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: var(--preto);
+    background-color: var(--amarelo);
+    margin: 10px 0;
+}
+
+.formulario button{
+    background-color: var(--vermelho);
+    padding: 10px 40px;
+    border: solid 2px var(--branco);
+
+    color: var(--branco);
+    font-size: 20px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+
+    transition: 300ms;
+}
+
+.form-button button:hover{
+    transform: scale(1.03);
+}
+
+.form-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilização da seção de depoimentos */
+section#depoimentos-secao {
+    position: relative;
+    padding: 40px 20px;
+    margin: 0 auto;
+    background-color: var(--marrom);
+}
+
+.title-dep h1{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 100;
+    font-size: 36px;
+    color: var(--branco);
+}
+
+.title-dep p{
+    text-align: center;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 40px;
+    color: var(--branco);
+}
+
+/* Estilização dos botôes do carousel */
+#depoimentos-secao .carousel-button {
+    position: absolute;
+    top: calc(50% - 18px);
+
+    cursor: pointer;
+    height: 36px;
+    width: 36px;
+    background-color: rgba(200, 200, 200, .5);
+    color: rgba(0, 0, 0, .5);
+    font-size: 30px;
+    border: none;
+    border-radius: 50%;
+    transition: all 150ms ease-in-out;
+}
+
+#depoimentos-secao .carousel-button:hover {
+    top: calc(50% - 20px);
+    height: 40px;
+    width: 40px;
+    background-color: rgba(200, 200, 200, .9);
+    color: var(--preto);
+    font-size: 35px;
+}
+
+/* Posicionamento dos botões do carousel */
+#depoimentos-secao #anterior {
+    left: 5%;
+}
+
+#depoimentos-secao #proximo {
+    right: 5%;
+}
+
+/* Estilização da div onde estarão os depoimentos*/
+#depoimentos {
+    margin: 0 auto;
+    width: 1000px;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+}
+
+/* Estilização dos cards de depoimento */
+.depoimento {
+    flex-shrink: none;
+    flex-grow: none;
+    scroll-behavior: smooth;
+    padding: 30px;
+    min-height: 360px;
+    min-width: 320px;
+    border-radius: 25px;
+}
+
+/* Colorização dos cards de depoimento */
+.depoimento:nth-child(3n + 1) {
+    background-color: var(--branco);
+}
+
+.depoimento:nth-child(3n + 2) {
+    background-color: var(--branco);
+}
+
+.depoimento:nth-child(3n + 3) {
+    background-color: var(--branco);
+}
+
+/* Perfil da pessoa que depôs */
+.perfil-depoimento {
+    margin-bottom: 31px;
+    grid-template-rows: 29px 21px;
+    grid-template-columns: 50px 215px;
+    column-gap: 15px;
+}
+
+/* Imagem da pessoa que depôs */
+.imagem-depoimento {
+    grid-row: 1 / 3;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+/* Nome da pessoa que depôs */
+.nome-depoimento {
+    color: var(--preto);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Instagram da pessoa que depôs */
+.instagram-depoimento {
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Texto do depoimento */
+.comentario-depoimento {
+    color: var(--preto);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+
+    /* Código para que o texto corte na 8a linha e termine com reticências*/
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Media query para ajustar as propriedades vistas anteriormente para celular*/
+@media screen and (max-width: 620px) {
+    section#depoimentos-secao {
+        padding: 20px 10px 20px 10px;
+    }
+
+    #depoimentos-secao button#anterior {
+        width: 50px;
+        height: 50px;
+        left: 0;
+    }
+
+    #depoimentos-secao button#proximo {
+        width: 50px;
+        height: 50px;
+        right: 0;
+    }
+
+    #depoimentos-secao div#depoimentos {
+        max-width: 300px;
+        gap: 57.5px;
+    }
+
+    .depoimento {
+        min-width: 100%;
+        max-width: 300px
+    }
+}
+
+/* Media query para ajustar as propriedades vistas anteriormente para telas intermediárias*/
+@media screen and (min-width: 621px) and (max-width: 750px) {
+    #depoimentos-secao {
+        min-width: 600px;
+        padding: 0;
+    }
+
+    #depoimentos {
+        width: 500px;
+    }
+
+    .depoimento {
+        min-width: 250px;
+        max-width: 250px;
+    }
+
+    .nome-depoimento {
+        font-size: 16px;
+    }
+}
+
+/* Media query para ajustar as propriedades vistas anteriormente para tablets*/
+@media screen and (min-width: 751px) and (max-width: 1100px) {
+    section#depoimentos-secao {
+        padding: 50px 0;
+        min-width: 72px;
+    }
+
+    #depoimentos-secao button#anterior {
+        left: 0;
+    }
+
+    #depoimentos-secao button#proximo {
+        right: 0;
+    }
+
+    #depoimentos {
+        min-width: 700px;
+        max-width: 700px;
+        gap: 20px;
+    }
+
+    .perfil-depoimento {
+        grid-template-rows: 17px 16px;
+        gap: 7px;
+    }
+
+    .depoimento {
+        min-width: 220px;
+        max-width: 220px;
+    }
+
+    .nome-depoimento {
+        font-size: 15px;
+    }
+}
+
+/*CÓDIGO DÚVIDAS FREQUENTES*/
+section#fundo-azul-escuro {
+    width: 100%;
+    height: auto;
+    padding: 40px 20px;
+    background-color: var(--verde);
+}
+
+/*Título dessa section*/
+section#fundo-azul-escuro>h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 100;
+    font-size: 34px;
+    color: var(--branco);
+    text-align: center;
+}
+
+/*Caixas com as perguntas*/
+section div.caixa-perguntas {
+    width: auto;
+    height: min;
+    padding: 10px 40px 10px 15px;
+    margin: 40px 80px 0 80px;
+    border-radius: 20px;
+    background-color: var(--branco);
+}
+
+details {
+    background-color: var(--branco);
+}
+
+/*Tag details*/
+summary {
+    cursor: pointer;
+    margin: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: var(--preto);
+    background-color: var(--branco);
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Faz com que apareça um "+" antes de clicar */
+summary:after {
+    width: 20px;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    left: 20px;
+    margin-right: 20px;
+    transition: transform 0.5s;
+    color: #666666;
+    background: var(--branco);
+}
+
+/*Faz com que apareça um "-" depois de clicar*/
+details[open] summary:after {
+    color: #666666;
+    transform: rotate(45deg);
+    transition: transform 0.5s;
+}
+
+@keyframes details-show {
+    from {
+        opacity: 0;
+        transform: var(--details-translate, translateY(-0.5em));
+    }
+}
+
+details[open]>*:not(summary) {
+    animation: details-show 150ms ease-in-out;
+}
+
+details>p {
+    text-align: justify;
+    font-size: 18px;
+    color: gray;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+p.textos-resposta {
+    text-align: justify;
+    background-color: var(--branco);
+    font-size: 16px;
+    color: #666666;
+    font-weight: 700;
+    padding: 5px 20px 20px 62px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 1000px) {
+    section div.caixa-perguntas{
+        margin: 0;
+    }
+}
