@@ -9,7 +9,6 @@
     font-family: "Poppins", sans-serif;
 }
 
-
 /* Variaveis */
 :root{
     --branco: #FFFFFF;
@@ -292,16 +291,12 @@ footer{
 /* Primeira parte */
 .footer-sec{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 20px;
 }
 
-.map{
-    max-width: 400px;
-}
-
 .footer-content{
-    width: 400px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 15px;
