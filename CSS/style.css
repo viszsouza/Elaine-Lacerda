@@ -349,8 +349,10 @@ header{
     border-radius: 5px;
     padding: 5px 10px;
     color: var(--preto);
-    background-color: var(--amarelo);
+    background-color: yellow;
     margin: 10px 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
 }
 
 .formulario button{
