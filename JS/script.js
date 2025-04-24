@@ -93,7 +93,7 @@ function enviarParaWhatsApp() {
     let tipo = document.getElementById("tipo").value.trim();
     let cidade = document.getElementById("cidade").value.trim();
 
-    let numeroWhatsApp = "5581985742601"; // Número desejado
+    let numeroWhatsApp = "5581996138506"; // Número desejado
 
     let texto = `Nome: ${nome}\nEmail: ${email}\nTelefone: ${telefone}\nTipo de Psicológia: ${tipo}\nMotivo: ${cidade}`;
 

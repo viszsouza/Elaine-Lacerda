@@ -719,15 +719,15 @@ p.textos-resposta {
     
     .container-inicio h1{
 
-        font-size: 46px;
+        font-size: 36px;
         text-align: end;
-        width: 100%;
+        width: 80%;
     }
     
     .container-inicio p{
         font-size: 16px;
         text-align: end;
-        width: 75%;
+        width: 55%;
     }
 
     .sobre-mim-img video{
