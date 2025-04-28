@@ -709,6 +709,14 @@ p.textos-resposta {
     #desktop{
         display: none;
     }
+
+    .map{
+        max-width: 100%;
+    }
+
+    .map iframe{
+        width: 100%;
+    }
 }
 
 /* Medias Query's */
@@ -716,9 +724,12 @@ p.textos-resposta {
     header{
         padding: 0px 0px;
     }
+
+    .container-inicio-text{
+        margin-top: 20px;
+    }
     
     .container-inicio h1{
-
         font-size: 36px;
         text-align: end;
         width: 80%;
